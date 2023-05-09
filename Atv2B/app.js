@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // Conectar ao banco de dados
-mongoose.connect('mongodb://localhost:27017/nome_do_banco_de_dados', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/mongodb', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Conectado ao banco de dados');
   })
